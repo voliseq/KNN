@@ -1,0 +1,40 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600');
+body{
+    font-family: 'Open Sans', 'sans-serif';
+}
+#container{
+    text-align: center;;;
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+}
+th:nth-child(1){
+    width: 20%;
+}
+th:nth-child(2){
+    width: 20%;
+}
+
+th:nth-child(3){
+    width: 40%;
+}
+th:nth-child(4){
+    width: 25%;
+}
+tr{
+    height: 80px;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+tr.error{
+    font-weight: bold;
+    color: red;
+}
+tr:nth-child(odd){
+    background-color: #f4f8fd;
+}
+tr:nth-child(even)
+
